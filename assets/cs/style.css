@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.superHero {
+  text-align: center;
+}
+
+.busqueda{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form {
+  display: inline-block;
+}
+
+.form-control {
+  width: 400px;
+}
+
+.cards{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@media (max-width: 600px) {
+  .cards{
+    display: inline-block;
+    text-align: center;
+  }
+  .superHero-img{
+    width: 100%;
+  }
+
+  #chartContainer{
+    margin-bottom: 30px;
+  }
+}
